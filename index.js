@@ -2,12 +2,12 @@
 
 class MerriamWebster {
     constructor(config) {
-        this.key = config.key;
-        this.json = config.json || true;
+        this.key1 = config.key1;
+        this.key2 = config.key2;
     }
 
-    displayConfig() {
-        console.log(this.key, this.json);
+    define(word) {
+        console.log(`DEFINITION of ${word}`);
     }
 }
 
